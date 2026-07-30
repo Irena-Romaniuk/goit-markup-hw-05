@@ -80,6 +80,7 @@ body:has(.backdrop.is-open) {
 }
 
 .modal-form-field {
+  margin-bottom: 8px;
 }
 
 .modal-form-input::placeholder {
@@ -174,7 +175,7 @@ body:has(.backdrop.is-open) {
 }
 
 .modal-form-agreement {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 .checkbox {
 }
@@ -208,7 +209,9 @@ body:has(.backdrop.is-open) {
   opacity: 0;
 }
 
-.checkbox:checked ~ .modal-agreement-checkbox > .modal-agreement-icon {
+.modal-agreement-wrapper:checked
+  > .modal-agreement-checkbox
+  > .modal-agreement-icon {
   opacity: 1;
 }
 
