@@ -85,6 +85,9 @@
 }
 
 .footer-form-email {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #ffffff;
   width: 264px;
   height: 40px;
