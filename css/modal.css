@@ -80,7 +80,6 @@ body:has(.backdrop.is-open) {
 }
 
 .modal-form-field {
-  margin-bottom: 8px;
 }
 
 .modal-form-input::placeholder {
@@ -128,7 +127,7 @@ body:has(.backdrop.is-open) {
   transform: translateY(-50%);
   left: 16px;
   fill: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -205,7 +204,11 @@ body:has(.backdrop.is-open) {
   border-color: #404bbf;
 }
 
-.checkbox:checked + .modal-agreement-wrapper {
+.modal-agreement-icon {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .modal-agreement-checkbox > .modal-agreement-icon {
   opacity: 1;
 }
 
