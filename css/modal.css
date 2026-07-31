@@ -137,6 +137,7 @@ body:has(.backdrop.is-open) {
 }
 
 .modal-form-comment {
+  color: #434455;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -222,7 +223,7 @@ body:has(.backdrop.is-open) {
   color: #4d5ae5;
 }
 
-.modal-form-comment {
-  margin-bottom: 16px;
+.modal-form-field.comment {
   color: #434455;
+  margin-bottom: 16px;
 }
