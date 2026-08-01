@@ -215,6 +215,7 @@ body:has(.backdrop.is-open) {
 
 .checkbox:checked + .modal-agreement-wrapper .modal-agreement-icon {
   opacity: 1;
+  fill: #f4f4fd;
 }
 
 .modal-agreement-link {
